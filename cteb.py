@@ -1,0 +1,212 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return '''<!DOCTYPE html>
+<html>
+<head>
+    <title>KALI TOOLS GUIDANCE</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body style="background-image: linear-gradient(blue, skyblue);">
+  <video autoplay muted loop id="myVideo">
+  <source src="stock-footage-system-hacking-detected-device-infected-from-virus-on-computer-screen-animation-pixel-with-flicker.webm" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+     <div id="a">
+       
+     </div>
+     <img src="logo.jpeg" style="position: absolute;top:19px;height: 168px;width: 150px;left: 15px;border-radius: 20px;"></img>
+     <div class="bg-text">
+     <marquee  class="scroll" width="100%" direction="right" height="60px" style="-webkit-text-stroke: 1px white;">WEL-COME TO LINUX WORLD:)</marquee>
+     <ul>
+       <li  ><a href="https://www.kali.org/get-kali/#kali-platforms" target="_blank"></li>
+        <button class="glow-on-hover" type="button">HOME</button></a>
+            <li><a href="https://www.kali.org/blog/" target="_blank"><button class="glow-on-hover" type="button">BLOG</button></a></li>
+            <li><a href="https://www.kali.org/get-kali/#kali-platforms" target="_blank"><button class="glow-on-hover" type="button">DOWNLOAD</button></a></li>
+            <li><a href="https://www.kali.org/about-us/" target="_blank"><button class="glow-on-hover" type="button">ABOUT US</button></a></li>
+            <li ><a href="https://www.kali.org/contact/" target="_blank"><button class="glow-on-hover" type="button">CONTACT US</button></a></li>
+           
+     </ul>
+     <div id="cnt1">
+              <a href="https://www.facebook.com/KaliLinux/"><img src="facebook.png" style="height:30px;border-radius: 25px;padding: 10px;"></a>
+              <a href="https://www.instagram.com/kalilinux/"><img src="insta.jpeg" style="height:30px;border-radius: 25px;padding: 10px;"></a>
+              <a href="https://infosec.exchange/@kalilinux"><img src="jbd_web_mastodons.jpg" style="height:30px;border-radius: 25px;padding: 10px;"></a>
+              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fkalilinux"><img src="twiter.png" style="height:30px;border-radius: 25px;padding: 10px;"></a>
+          </div>
+<pre id="text"><b style="font-size: 55px;font-family: sans-serif;">       "THE QUIETER</b><strong style="font-family: serif;">       
+                          YOU BEACOME,</strong>
+                        THE MORE YOU 
+                            <strong style="font-size:50px;color:red ;">ARE ABLE</strong>
+                                 TO HEAR"</pre>
+         </div> 
+         <div class="gallary1">
+           <h1>TOP MOST USEFUL KALI LINUX TOOLS</h1>
+         </div>
+         <div1 class="info">
+          <h1 style="text-align: center;background: #120203;color: #00e813;-webkit-text-stroke: 1px white;
+  background-color: rgb(1, 6, 0, 1.0);border-radius: 90px;width: 97%;">WHAT IS KALI LINUX?</h1>
+          <p style="font-size:25px;left:10px;color: white;"><i><b>Kali Linux </b>is an open-source distribution designed for cybersecurity professionals, ethical hackers, and penetration testers. It is Debian-derived and focused on providing over 600 tools for penetration testing and security auditing. Offensive Security actively developed Kali Linux and is one of the most popular security distributions used by ethical hackers and Infosec companies.
+
+Kali Linux was designed to be used by professionals, web admins, and anyone who knows how to run Kali Linux; it was not designed for general use.
+
+Kali Linux has numerous security-hacker applications pre-installed for exploitation tools, forensic tools, hardware hacking, information gathering, password cracking, reverse engineering, wireless attacks, web applications, stress testing, sniffing and spoofing, vulnerability analysis, and many more. You can even install additional tools.
+
+Since hundreds of tools are available, we've decided to offer you this shortlist of the better tools to use this year. This way, you don't have to spend hours wading through the vast collection, trying to find the best Kali Linux tools. We've done the heavy lifting for you.</i></p>   
+    <hr id="hr">
+  <hr id="hr">
+         </div1>
+
+         <div class="tools1">
+          <div>
+    <div id="imge">
+      <a target="_blank" href="https://github.com/Lifka/hacking-resources/blob/main/nmap-cheat-sheet.md">
+    <img src="nmap.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">NMAP</h1>
+    </div>
+    <div id="imge" style="position: absolute;left: 300px;">
+      <a target="_blank" href="https://www.kali.org/tools/burpsuite/">
+    <img src="burp suite.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">BURPSUITE</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 600px;">
+      <a target="_blank" href="https://www.kali.org/tools/wireshark/">
+    <img src="wireshark.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">wireShark</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 900px;">
+      <a target="_blank" href="https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/">
+    <img src="metasploit.jpeg" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">MetaSploit</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 1200px;">
+      <a target="_blank" href="https://www.kali.org/tools/aircrack-ng/">
+    <img src="aircrack.jpeg" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">AirCrack-ng</h1>
+    </div>
+    <div id="imge" style="position:absolute;top: 300px;">
+      <a target="_blank" href="https://www.kali.org/tools/netcat/">
+    <img src="netcat.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">netcat</h1>
+    </div>
+    <div id="imge" style="position: absolute;left: 300px;top: 300px;">
+      <a target="_blank" href="https://www.kali.org/tools/john/">
+    <img src="jhontheripper.jpeg" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">JhonTheRipper</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 600px;top: 300px;">
+      <a target="_blank" href="https://www.kali.org/tools/sqlmap/">
+    <img src="sqlmap.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">SQLMap</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 900px;top: 300px;">
+      <a target="_blank" href="https://www.kali.org/tools/fierce/">
+    <img src="FIERCE.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">FIERCE</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 1200px;top: 300px;">
+      <a target="_blank" href="https://www.kali.org/blog/openvas-vulnerability-scanning/">
+    <img src="OPENVAS.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">OpenVAS</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 1200px;top: 600PX;">
+      <a target="_blank" href="https://www.kali.org/tools/nikto/">
+    <img src="nikto.jpeg" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">NIKTO</h1>
+    </div>
+    <div id="imge" style="position:absolute;top: 600px;">
+      <a target="_blank" href="https://www.kali.org/tools/wpscan/">
+    <img src="WPScan.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">WPScan</h1>
+    </div>
+    <div id="imge" style="position: absolute;left: 300px;top: 600px;">
+      <a target="_blank" href="https://www.kali.org/tools/skipfish/">
+    <img src="SKIPPHISH.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">skipfish</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 600px;top: 600px;">
+      <a target="_blank" href="https://www.kali.org/tools/hydra/">
+    <img src="hydra.jpeg" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">Hydra</h1>
+    </div>
+    <div id="imge"  style="position: absolute;left: 900px;top: 600px;">
+      <a target="_blank" href="https://github.com/FluxionNetwork/fluxion">
+    <img src="fluxion.png" style="height:170px;width:223px;">
+  </a>
+  <hr>
+        <h1 style="text-align: center;position:relative;top: -10PX;">fluxion</h1>
+    </div>
+  </div>
+  </div>
+  <hr id="hr1">
+  <hr id="hr1">
+  <div id="note1">
+    
+  <h1 id="note"><i>
+    Backup any important information on the device to an external media. Ensure that your computer is set to boot from CD/DVD/USB in your BIOS/UEFI. In the UEFI settings, ensure that Secure Boot is disabled. The Kali Linux kernel is not signed and will not be recognized by Secure Boot.</i>
+  </h1>
+  <h1 style="text-align:center;font-size: 40px;color: red;"><i><ins>System Requirements</ins></i></h1>
+  <p style="color: white;font-size: 25px;"><i>The installation requirements for Kali Linux will vary depending on what you would like to install and your setup. For system requirements:</i></p>
+  <ul1 style="color:white;font-size: 25px;" type="disc">
+    <li><i>On the low end, you can set up Kali Linux as a basic Secure Shell (SSH) server with no desktop, using<strong> as little as 128 MB of RAM (512 MB recommended) and 2 GB of disk space.</strong></i></li>
+    <li><i>On the higher end, if you opt to install the default Xfce4 desktop and the <ins>kali-linux-default</ins> metapackage, you should really aim for<strong> at least 2 GB of RAM and 20 GB of disk space.</strong></i></li>
+    <li><i>When using resource-intensive applications, such as Burp Suite, they recommend at least <b>8 GB of RAM</b> (<ins>and even more if it is a large web application!</ins>) or using simultaneous programs at the same time.</i></li>
+  </ul1>
+  <h1 style="text-align:center;font-size: 40px;color: red;"><i><ins>Installation Prerequisites</ins></i></h1>
+  <p style="color: white;font-size: 25px;"><i>This guide will make also the following assumptions when installing Kali Linux:</i></p>
+  <ul2 style="color:white;font-size: 25px;" type="disc">
+    <li><i>Using the amd64 installer image.</i></li>
+    <li><i>CD/DVD drive / USB boot support.</i></li>
+    <li><i>Single disk to install to.</i></li>
+    <li><i>Connected to a network (with DHCP & DNS enabled) which has outbound Internet access.</i></li>
+  </ul2>
+  <h1 style="text-align:center;font-size: 40px;color: red;"><i><ins>Preparing for the Installation</ins></i></h1>
+  <ol style="color:white;font-size: 25px;">
+    <li><i>Download Kali Linux (We recommend the image marked Installer).</i></li>
+    <li><i>Burn The Kali Linux ISO to DVD or image Kali Linux Live to USB drive. (If you cannot, check out the Kali Linux Network Install).</i></li>
+    <li><i>Backup any important information on the device to an external media.</i></li>
+    <li><i>Ensure that your computer is set to boot from CD/DVD/USB in your BIOS/UEFI.</i></li>
+    <li><i>In the UEFI settings, ensure that Secure Boot is disabled. The Kali Linux kernel is not signed and will not be recognized by Secure Boot.</i></li>
+  </ol>
+  <h1 style="font-size: 50px;color: red;"><i>for know step by step information:</i></h1>
+  <a href="https://www.kali.org/docs/installation/hard-disk-install/#preparing-for-the-installation"><button class="glow-on-hover" type="button" style="position:absolute;left: 730px;top:1023px">click here!</button></a>
+  </div>
+  <div id="end">
+      Thanks for visit:)
+  </div>
+
+</body>
+</html>'''
+
+if __name__ == '__main__':
+    app.run(debug=True, port=8080)
